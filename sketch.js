@@ -18,7 +18,7 @@ function setup() {
 
     // initialize the webcam at the window size
     cam = createCapture(VIDEO);
-    cam.size(windowWidth, windowHeight);
+    cam.size(710, 400);
 
     // hide the html element that createCapture adds to the screen
     cam.hide();
